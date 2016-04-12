@@ -1,3 +1,4 @@
+```javascript
 function encode(string) {
 	var textarea;
 	textarea = document.createElement('textarea');
@@ -11,3 +12,4 @@ function decode(string) {
 	textarea.innerHTML = string;
 	return textarea.textContent;
 }
+```
